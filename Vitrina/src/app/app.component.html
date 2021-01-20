@@ -6,14 +6,17 @@
       </ion-toolbar>
     </ion-header>
     <ion-content>
-      <ion-list>
-        <ion-item>Inicio</ion-item>
-        <ion-item>Mi lista de deseados ♥</ion-item>
+      <ion-searchbar type="tel"></ion-searchbar>
+      <ion-list>        
         <ion-item>Mis compras</ion-item>
         <ion-item>Configuracion</ion-item>
         <ion-item>Soporte</ion-item>
-      </ion-list>
+        <ion-label>Cerrar sesion<ion-icon name="log-out-outline" style="height: 30px; width: 30px;"></ion-icon> </ion-label>           
+      </ion-list>  
+      
     </ion-content>
+    
   </ion-menu>
+  
   <ion-router-outlet id="main"></ion-router-outlet>
 </ion-app>
