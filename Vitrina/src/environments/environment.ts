@@ -5,7 +5,16 @@
 export const environment = {
   production: false
 };
-
+export const firebaseConfig = {
+  apiKey: "AIzaSyBpB8Yod6oEkH76kHxHDpy2aeCD0tZjSJM",
+  authDomain: "vitrina-21.firebaseapp.com",
+  databaseURL: "https://vitrina-21-default-rtdb.firebaseio.com",
+  projectId: "vitrina-21",
+  storageBucket: "vitrina-21.appspot.com",
+  messagingSenderId: "209408823811",
+  appId: "1:209408823811:web:2609dcdc72794086e83436",
+  measurementId: "G-BYNL4JQRLL"
+};
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
